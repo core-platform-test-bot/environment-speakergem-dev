@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAOZiwvcjkw3vJ9mONhtm5sQwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMmYxMzRhOWMtOTliZC00OGM3LTljZjctNzIxYTUxNTZkNDlm
+    MB4XDTE5MDQxMDEzNTQzNVoXDTI0MDQwODE0NTQzNVowLzEtMCsGA1UEAxMkMmYx
+    MzRhOWMtOTliZC00OGM3LTljZjctNzIxYTUxNTZkNDlmMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEA3bl2cU0rSlP1jhv+gU24MO2FqlOSd0lBsa9xuEQ+
+    qjTJMnX/69qXc2fy8PJV/5+tOZVA6caWdBVkSm+C+xITH8nMFqKqxVR5eitL1RR5
+    IbPWEdxu90+dS6thwD6qQWwhxzAffoDF3N0mL8XS+nBahHaQT2pG7FpVn/sO0z5Q
+    eKJOi7LwhOdnHkymLN7P1hfSngCR92vO/5K/zAannBMsg8UUUaEsUL8UH3TpacvT
+    L5/nNsFseZeDsu72r8ZGL2TQwl3Jdp/UHF4AY1D8e27uKsGYHp9eelE36BXDouHv
+    blxZRhiCfxmU5ulzk8QS2Wzm26Fay0VuNUpKXT+6QUiRxQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    HSyf4ExtzCV5JZ8VRTv2x5EtW+twDH8SXna1Kx2szV+EQ7VOuyMQFcug/hjd82GQ
+    jKKGY+Ky0ihHeJTYBLH3YMTXvrrgxUDsfJQL5jULccMzevtrXQCr3zmxnYKs2faR
+    UuL8rhBx4vEPpn3711bZcYh/bVm4R2jVpx3BJfesZxSyD21cqagpgceWEfDY3xZD
+    Y9OwFpUPZ1FC+XDCQqmpKUB8Kt0n3jdb5nGVsUd05vVadpcBGn9tc1lzUqZef6aT
+    8qv8K8iMRGqfDbZYCYvocres7VuSyh1A5kN+lNQFtA6GIdOtyAsFf2A3E3iCMSZX
+    XVYA4vYO0Hm3NVLj4wiV8g==
+    -----END CERTIFICATE-----
+  clusterName: speakergem
+  jx-install-version: 1.3.1098
+  kubeProvider: gke
+  projectID: core-dev-1
+  region: ""
+  secretsLocation: vault
+  server: https://35.187.61.47
+  systemVaultName: jx-vault-speakergem
+  zone: europe-west1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config

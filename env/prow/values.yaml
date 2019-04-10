@@ -1,0 +1,8 @@
+auth:
+  git:
+    username: core-platform-test-bot
+buildnum:
+  enabled: false
+pipelinerunner:
+  enabled: "true"
+tillerNamespace: ""
